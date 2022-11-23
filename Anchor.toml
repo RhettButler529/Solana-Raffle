@@ -1,0 +1,16 @@
+[programs.localnet]
+raffle = "BLV8oNcV6cZVvUJoQjK7V1gLEdPdj5u9AKg4StGBtALM"
+[programs.devnet]
+raffle = "BLV8oNcV6cZVvUJoQjK7V1gLEdPdj5u9AKg4StGBtALM"
+[programs.mainnet]
+raffle = "BLV8oNcV6cZVvUJoQjK7V1gLEdPdj5u9AKg4StGBtALM"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "mainnet"
+wallet = "id.json"
+
+[scripts]
+test = "ts-mocha -p ./tsconfig.json -t 1000000 tests/*.ts"
